@@ -1,0 +1,22 @@
+.album {
+    padding: 1.5em 3rem;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    background-color: #fafafa;
+    transition: background-color 0.4s, border-radius 0.4s;
+
+    h2 {
+        margin: 0;
+    }
+
+    h3 {
+        color: #888888;
+        margin: 0;
+    }
+}
+
+.album:hover,
+.album:focus {
+    background-color: #eeeeee;
+    border-radius: 1.5em;
+}
